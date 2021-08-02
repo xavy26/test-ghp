@@ -1,0 +1,20 @@
+.primary {
+    color: #00507f;
+}
+
+.accent {
+    color: #31a7c4;
+}
+
+.nav {
+    background-color: #fff;
+    color: #00507f;
+}
+
+nav .brand-logo {
+    color: #00507f;
+}
+
+img {
+    margin-top: 7px;
+}
