@@ -6,15 +6,19 @@
     color: #31a7c4;
 }
 
-.nav {
-    background-color: #fff;
-    color: #00507f;
+h3 {
+    color: #31a7c4;
 }
 
-nav .brand-logo {
-    color: #00507f;
+nav {
+    background-color: #00507f;
+}
+
+.page-footer {
+    background-color: #00507f;
 }
 
 img {
     margin-top: 7px;
+    margin-right: 8px;
 }
