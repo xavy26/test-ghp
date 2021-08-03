@@ -6,6 +6,26 @@
     color: #31a7c4;
 }
 
+.nav-title-edit {
+    height: 64px;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.title {
+    margin-left: 16px;
+}
+
+.image {
+    margin-top: 8px;
+}
+
+.image-movile {
+    margin-top: 4px;
+}
+
 h1 {
     color: #31a7c4;
 }
@@ -16,9 +36,4 @@ nav {
 
 .page-footer {
     background-color: #00507f;
-}
-
-img {
-    margin-top: 7px;
-    margin-right: 8px;
 }
