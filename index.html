@@ -18,10 +18,12 @@
     <div class="navbar-fixed">
       <nav class="nav">
         <div class="nav-wrapper container">
-          <a href="/" class="brand-logo"><img class="primary" src="img/ic_cis_app.png" height="50" alt="CIS">Carrera de Ingeniería en Sistemas / Computación</a>
+          <a href="/" class="brand-logo"><img class="primary" src="img/ic_cis_app.png" height="50" alt="CIS">Carrera de
+            Ingeniería en Sistemas / Computación</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#pictoblox">PictoBlox</a></li>
             <li><a href="#colab">Colab</a></li>
+            <li><a href="#team">Equipo</a></li>
           </ul>
         </div>
       </nav>
@@ -37,7 +39,7 @@
     <!-- Cards section-->
     <div id="pictoblox" class="section container">
 
-      <h3 class="center">Proyectos PictoBlox</h3>
+      <h1 class="center">Proyectos PictoBlox</h1>
 
       <div class="row">
         <div class="col s6 m4">
@@ -144,7 +146,7 @@
     <!-- Colab -->
     <div id="colab" class="section container">
 
-      <h3 class="center">Proyectos Colab</h3>
+      <h1 class="center">Proyectos Colab</h1>
 
       <div class="row">
         <div class="col s6 m4">
@@ -243,6 +245,105 @@
       </div>
     </div>
 
+    <!--  Parallax Section  -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/intro.jpg"></div>
+    </div>
+
+    <!-- Team -->
+    <div id="team" class="section container">
+
+      <h1 class="center">Equipo</h1>
+
+      <div class="row">
+        <div class="col s6 m4">
+          <div class="card center">
+            <div class="card-image">
+              <img src="img/doe.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title accent">Person name</span>
+              <p>Teacher</p>
+            </div>
+            <div class="card-action">
+              <a class="primary" href="#">Saber mas...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m4">
+          <div class="card center">
+            <div class="card-image">
+              <img src="img/doe2.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title accent">Person name</span>
+              <p>Student</p>
+            </div>
+            <div class="card-action">
+              <a class="primary" href="#">Saber mas...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m4">
+          <div class="card center">
+            <div class="card-image">
+              <img src="img/doe1.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title accent">Person name</span>
+              <p>Student</p>
+            </div>
+            <div class="card-action">
+              <a class="primary" href="#">Saber mas...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m4">
+          <div class="card center">
+            <div class="card-image">
+              <img src="img/doe1.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title accent">Person name</span>
+              <p>Student</p>
+            </div>
+            <div class="card-action">
+              <a class="primary" href="#">Saber mas...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m4">
+          <div class="card center">
+            <div class="card-image">
+              <img src="img/doe2.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title accent">Person name</span>
+              <p>Student</p>
+            </div>
+            <div class="card-action">
+              <a class="primary" href="#">Saber mas...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m4">
+          <div class="card center">
+            <div class="card-image">
+              <img src="img/doe1.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title accent">Person name</span>
+              <p>Student</p>
+            </div>
+            <div class="card-action">
+              <a class="primary" href="#">Saber mas...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
   </main>
 
   <!-- Footer -->
@@ -279,6 +380,10 @@
     document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.parallax');
       var instances = M.Parallax.init(elems);
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.carousel');
+      var instances = M.Carousel.init(elems, options);
     });
   </script>
 
